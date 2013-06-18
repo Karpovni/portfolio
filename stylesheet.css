@@ -93,4 +93,20 @@ a:hover.navig-link {
     font-weight: bold;
     font-family: Adobe Caslon Pro, Garamond;
     text-align: center;
+    display: inline-block;
 }    
+#about {
+    width: 80px;
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 10px;
+    background-color: #802424;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+    margin-right: 65px;
+    font-size: 18px;
+    font-family: Helvetica, Garamond;
+    color: white;
+    text-align: center;
+}
