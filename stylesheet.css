@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(1, 9, 8, 0.85);
+}
+#background {
+    width:703px;
+    height: 900px;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+#logo {
+    margin: auto;
+    text-align: center;
+    margin-top: 17px;
+} 
+#navigation-background {
+    width:640px;
+    height: 62px;
+    background-color: #802424;
+    border-radius: 25px;
+    margin: auto;
+}
+.navigation {
+    margin-top: 0px;
+    font-size: 21px;
+    font-family: Helvetica, Garamond;
+    color: white;
+    /*background-color: black;*/
+    height: 25px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    position: absolute
+}
+.separator {
+    display: inline-block;
+    background-color: white;
+    width: 3px;
+    height: 42px; 
+    margin-top: 10px;
+    position: absolute;
+}
+#home {
+    margin-left: 30px;
+}
+#sep-1 {
+    margin-left: 99px;
+}
+#education {
+    margin-left: 105px
+}
+#sep-2 {
+    margin-left: 214px;
+}
+#extra {
+    margin-left: 220px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 27px;
+}
+#sep-3 {
+    margin-left: 382px;
+}
+#resume {
+    margin-left: 389px
+}
+#sep-4 {
+    margin-left: 481px
+}
+
+#search {
+    margin-left: 490px;
+    padding-top: 20px;
+}
+a.navig-link {
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover.navig-link {
+    background-color: #4a1c17;
+}
+#contact {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 180px;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Adobe Caslon Pro, Garamond;
+    text-align: center;
+}    
