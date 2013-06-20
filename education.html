@@ -5,7 +5,7 @@
         <meta name="author" content="Nikita Karpov">
         <meta name="description" content="My Portfolio website">
         <meta name="keywords" content="nikita, karpov, digital, portfolio">
-    	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>Nikita Karpov</title>
         <style>
         </style>
@@ -23,22 +23,30 @@
                 <div class="separator" id="sep-3"></div>
                 <p id="resume"><a href="resume.html" class="navig-link">Resume</a></p>
                 <div class="separator" id="sep-4"></div>
-                <!--Search start-->
-                <div id="search"><form name="cse" id="searchbox_demo" action="http://www.google.com/cse">
-  <input type="hidden" name="cref" value="" />
-  <input type="hidden" name="ie" value="utf-8" />
-  <input type="hidden" name="hl" value="" />
-  <input name="q" type="text" size="10" />
-  <input type="submit" name="sa" value="Search" />
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/tools/onthefly?form=searchbox_demo&lang="></script></div>
-                <!--Search end-->
+                <p id="about"><a href="about.html" class="navig-link">About</a></p>
+                
+                
             </div>
+            <!--Search start-->
+            <div id="search"><script>
+  (function() {
+    var cx = '012662478901562561990:fn2c-uwxvig';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search></div>
+            <!--Search end-->
             <div id="contact">
                     <span>Contact<br>Information:</span><br>
 <br>Mail<br>karpovnikita@gmail.com<br><br>Phone<br>(517)-402-7603
             </div>
-            <div id="about"><a href="about.html" class="navig-link">About</a></div>
+            
             
         </div>
 		<div id="footer"> <p>Copyright 2013, Nikita Karpov</p></div>

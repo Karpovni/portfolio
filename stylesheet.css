@@ -34,8 +34,8 @@ html,body {
     color: white;
     /*background-color: black;*/
     height: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: inline-block;
     position: absolute;
 }
@@ -49,45 +49,44 @@ html,body {
 }
 #home {
     padding-top: 18px;
-    margin-left: 30px;
+    margin-left: 25px;
     padding-bottom: 19px;
 }
 #sep-1 {
-    margin-left: 99px;
+    margin-left: 106px;
 }
 #education {
     padding-top: 18px;
-    margin-left: 105px;
+    margin-left: 114px;
     padding-bottom: 19px;
 }
 #sep-2 {
-    margin-left: 214px;
+    margin-left: 235px;
 }
 #extra {
-    margin-left: 220px;
+    margin-left: 243px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 27px;
 }
 #sep-3 {
-    margin-left: 382px;
+    margin-left: 417px;
 }
 #resume {
-    
     padding-top: 18px;
-    margin-left: 389px;
+    margin-left: 426px;
     padding-bottom: 19px;
 }
 #sep-4 {
-    margin-left: 481px
+    margin-left: 531px
 }
-
-#search {
-    margin-left: 490px;
-    padding-top: 20px;
+#about {
+    padding-top: 18px;
+    margin-left: 540px;
+    padding-bottom: 19px;
 }
 .current {
-    background-color: #4a1c17;
+    background-color: #4a1c17; /* shows which page is opened currently */
 }
 a.navig-link {
     text-decoration: none;
@@ -97,8 +96,14 @@ a.navig-link {
 a:hover.navig-link {
     background-color: #4a1c17;
 }
+#search {
+    position: absolute;
+    width:200px;
+    margin: auto;
+    margin-left:500px;
+}
 #contact {
-    margin-top: 20px;
+    margin-top: 80px;
     margin-right: 20px;
     width: 180px;
     float: right;
@@ -110,36 +115,6 @@ a:hover.navig-link {
 }  
 body div div span {
     font-size: 20px;
-}
-#about {
-    width: 80px;
-    height: 30px;
-    padding-top: 7px;
-    border-radius: 10px;
-    background-color: #802424;
-    float: right;
-    clear: right;
-    margin-top: 20px;
-    margin-right: 65px;
-    font-size: 18px;
-    font-family: Helvetica, Garamond;
-    color: white;
-    text-align: center;
-}
-#about-current {
-    width: 80px;
-    height: 30px;
-    padding-top: 7px;
-    border-radius: 10px;
-    background-color: #4a1c17;
-    float: right;
-    clear: right;
-    margin-top: 20px;
-    margin-right: 65px;
-    font-size: 18px;
-    font-family: Helvetica, Garamond;
-    color: white;
-    text-align: center;
 }
 #math-econ {
     margin-top: 20px;
@@ -159,5 +134,6 @@ body div div span {
     font-size: 14px;
     text-align: center;
 }
+
     
     
