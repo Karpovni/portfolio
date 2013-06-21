@@ -137,4 +137,11 @@ body div div a {
 #footer p {
     font-size: 14px;
     text-align: center;
-}  
+} 
+.text {
+    margin-left: 32px;
+    width: 456px;
+    text-indent: 40px;
+    font-size: 1em;
+    font-family: Times;
+} 
