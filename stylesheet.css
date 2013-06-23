@@ -144,4 +144,6 @@ body div div a {
     text-indent: 40px;
     font-size: 1em;
     font-family: Times;
+    text-align: justify;                                             
+    text-align-last: justify;
 } 
