@@ -147,3 +147,19 @@ body div div a {
     text-align: justify;                                             
     text-align-last: justify;
 } 
+p.text span {
+    font-weight: bold;
+}
+.header{
+    margin-left: 32px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 1.35em;
+    font-family: Times;
+    color: #802424;
+}
+.img-in-text {
+    float: left;
+    margin-left: 32px;
+    margin-right: 10px
+}
