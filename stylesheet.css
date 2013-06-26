@@ -150,14 +150,25 @@ body div div a {
 p.text span {
     font-weight: bold;
 }
-.header{
+.header {
     margin-left: 32px;
     margin-right: 200px;
-    text-align: center;
-    font-size: 1.35em;
     font-family: Times;
     color: #802424;
 }
+h2.header {
+    text-align: center;
+    font-size: 1.5em;
+}
+h3.header {
+    text-align: center;
+    font-size: 1.35em;
+}
+h4.header {
+    text-align: left;
+    font-size: 1.2em;
+}
+
 .img-in-text {
     float: left;
     margin-left: 32px;
