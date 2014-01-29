@@ -121,6 +121,10 @@ body div div a { /* decoration of email link */
     text-decoration: none;
     color: #4a1c17;
 }
+body div p a { /* decoration of links in resume */
+    text-decoration: none;
+    color: #802424;
+}
 #math-econ { /* image on the home page */
     margin-top: 20px;
     margin-left: 32px;
@@ -148,6 +152,11 @@ body div div a { /* decoration of email link */
     text-align: justify;                                             
     text-align-last: justify;
 } 
+.list {
+	width: 456px;
+    font-size: 1em;
+    font-family: Times;
+}
 p.text span { /* for names of teachers */
     font-weight: bold;
 }
